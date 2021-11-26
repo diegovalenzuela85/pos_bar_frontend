@@ -9,7 +9,10 @@
     >
       <template v-slot:item.image="{ item }">
         <v-avatar>
-          <img :src="'http://localhost:3000/' + item.image" :alt="item.sku" />
+          <img
+            :src="'https://immense-peak-52311.herokuapp.com/' + item.image"
+            :alt="item.sku"
+          />
         </v-avatar>
       </template>
       <template v-slot:top>
@@ -48,7 +51,10 @@
                         <v-row justify="space-around">
                           <v-avatar size="150" v-if="editado.image">
                             <img
-                              :src="'http://localhost:3000/' + editado.image"
+                              :src="
+                                'https://immense-peak-52311.herokuapp.com/' +
+                                editado.image
+                              "
                             />
                           </v-avatar>
                         </v-row>

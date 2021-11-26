@@ -9,7 +9,7 @@ import VueAxios from 'vue-axios'
 Vue.use(VueAxios, axios)
 
 // Agregamos la URL de la Api
-axios.defaults.baseURL = 'http://localhost:3000/'
+axios.defaults.baseURL = 'https://immense-peak-52311.herokuapp.com/'
 
 Vue.config.productionTip = false
 
